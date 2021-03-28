@@ -17,8 +17,6 @@
 		45AABCE5260F9AAA00F45501 /* DemoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AABCE4260F9AAA00F45501 /* DemoSwiftUITests.swift */; };
 		45AABCF9260F9AE300F45501 /* DATAStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AABCF8260F9AE300F45501 /* DATAStack.swift */; };
 		45AABCFE260F9BDE00F45501 /* TestCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AABCFD260F9BDE00F45501 /* TestCheck.swift */; };
-		45AABD31260FA35700F45501 /* User+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AABD2F260FA35700F45501 /* User+CoreDataClass.m */; };
-		45AABD32260FA35700F45501 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AABD30260FA35700F45501 /* User+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +54,6 @@
 		45AABCF8260F9AE300F45501 /* DATAStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATAStack.swift; sourceTree = "<group>"; };
 		45AABCFD260F9BDE00F45501 /* TestCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCheck.swift; sourceTree = "<group>"; };
 		45AABD05260FA09C00F45501 /* DemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
-		45AABD2D260FA35700F45501 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataProperties.h"; path = "DemoSwift/User+CoreDataProperties.h"; sourceTree = "<group>"; };
-		45AABD2E260FA35700F45501 /* User+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataClass.h"; path = "DemoSwift/User+CoreDataClass.h"; sourceTree = "<group>"; };
-		45AABD2F260FA35700F45501 /* User+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataClass.m"; path = "DemoSwift/User+CoreDataClass.m"; sourceTree = "<group>"; };
-		45AABD30260FA35700F45501 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataProperties.m"; path = "DemoSwift/User+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +84,6 @@
 		45AABCB3260F9AA900F45501 = {
 			isa = PBXGroup;
 			children = (
-				45AABD2D260FA35700F45501 /* User+CoreDataProperties.h */,
-				45AABD2E260FA35700F45501 /* User+CoreDataClass.h */,
-				45AABD2F260FA35700F45501 /* User+CoreDataClass.m */,
-				45AABD30260FA35700F45501 /* User+CoreDataProperties.m */,
 				45AABCBE260F9AA900F45501 /* DemoSwift */,
 				45AABCD8260F9AAA00F45501 /* DemoSwiftTests */,
 				45AABCE3260F9AAA00F45501 /* DemoSwiftUITests */,
@@ -279,10 +269,8 @@
 				45AABCFE260F9BDE00F45501 /* TestCheck.swift in Sources */,
 				45AABCCA260F9AA900F45501 /* DemoSwift.xcdatamodeld in Sources */,
 				45AABCF9260F9AE300F45501 /* DATAStack.swift in Sources */,
-				45AABD31260FA35700F45501 /* User+CoreDataClass.m in Sources */,
 				45AABCC4260F9AA900F45501 /* ViewController.swift in Sources */,
 				45AABCC0260F9AA900F45501 /* AppDelegate.swift in Sources */,
-				45AABD32260FA35700F45501 /* User+CoreDataProperties.m in Sources */,
 				45AABCC2260F9AA900F45501 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,7 @@ class ViewController: UITableViewController, NSFetchedResultsControllerDelegate 
   
   func controller(_ controller: NSFetchedResultsController<NSFetchRequestResult>, didChangeContentWith snapshot: NSDiffableDataSourceSnapshotReference) {
     items = fetchedResultsController.fetchedObjects!
+    tableView.reloadSections(IndexSet.init(integer: 0), with: .automatic)
   }
 
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
